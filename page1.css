@@ -1,40 +1,41 @@
 
 
 .image {
-    background-image: url("peel.jpg");
+    background-image: url("photo/1.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 100px;
+    height: 250px;
     width: 500px;
     align-items: center;
 }
 
 .image_mask {
-    background-image: url("mask.jpg");
+    background-image: url("photo/mask.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 250px;
     width: 500px;
 }
 
 .image_cosmetics {
-    background-image: url("cosmetics.jpg");
+    background-image: url("photo/cosmetics.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 250px;
     width: 500px;
 }
 
 .image_me {
-    background-image: url("me.jpg");
+    background-image: url("photo/me.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 500px;
-    width: 500px;
+    height: 250px;
+    width: 250px;
+
 }
 
 .menu {
-    background-color:#EE82EE;
+    background-color: #800080;
     border-radius: 10px;
     /* padding-top: 15px;
     padding-bottom: 15px; */
@@ -58,16 +59,22 @@
 }
 
 .all_footer {
-    background-color:#EE82EE;
+    background-color:#800080;
     border-radius: 10px;
     padding: 10px;
+    margin-top: 20px;
+    color: #ffffff;
+
 }
 
-.peel_why {
-    background-color: #D8BFD8;
+ul {
+    background-color: rgb(230, 230, 250);
     border-radius: 10px;
     padding: 40px;
+}
 
+li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .part_peel {
@@ -77,8 +84,10 @@
 
 .quastion {
     font-size: 18px;
-    padding-bottom: 20px;
+    padding-bottom: 20px;ы
     font-weight: 800;
+    color: #800080;
+
 }
 
 .on_face {
@@ -93,3 +102,25 @@
     padding: 40px;
 }
 
+h2 {
+    text-align: center;
+    color: #800080;
+    background-color: #E6E6FA;
+    border-radius: 10px;
+    padding: 20px;
+    border: 3px dotted #800080;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul:first-letter {
+    font-size: 25px;
+    color: rgba(128, 0, 128, 1.5);
+    font-weight: 600;
+
+}
+
+body {
+    background: rgba(128, 0, 128, 0.2);
+    padding: 0px 20px 0px 20px;
+
+}
